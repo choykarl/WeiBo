@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBB327CF2060E6910029029E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327CE2060E6910029029E /* AppDelegate.swift */; };
-		CBB327D12060E6910029029E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327D02060E6910029029E /* ViewController.swift */; };
-		CBB327D42060E6910029029E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB327D22060E6910029029E /* Main.storyboard */; };
+		A70D5E9C454A5D03139BA118 /* Pods_WeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA24B825A2206FC1EAE2A904 /* Pods_WeiBo.framework */; };
 		CBB327D62060E6910029029E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB327D52060E6910029029E /* Assets.xcassets */; };
 		CBB327D92060E6910029029E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB327D72060E6910029029E /* LaunchScreen.storyboard */; };
+		CBB327E82060E6C40029029E /* KLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327E22060E6C40029029E /* KLHomeViewController.swift */; };
+		CBB327E92060E6C40029029E /* KLNetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327E72060E6C40029029E /* KLNetworkEngine.swift */; };
+		CBB327F02060E75C0029029E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327EB2060E75C0029029E /* AppDelegate.swift */; };
+		CBB327F12060E75C0029029E /* KLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327EC2060E75C0029029E /* KLBaseViewController.swift */; };
+		CBB327F22060E75C0029029E /* KLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327ED2060E75C0029029E /* KLCommon.swift */; };
+		CBB327F32060E75C0029029E /* KLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327EE2060E75C0029029E /* KLNavigationController.swift */; };
+		CBB327F42060E75C0029029E /* KLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB327EF2060E75C0029029E /* KLTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58973CE62798931C7E9C902E /* Pods-WeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		7611CDE66577849B3F17A549 /* Pods-WeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo.release.xcconfig"; sourceTree = "<group>"; };
 		CBB327CB2060E6910029029E /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB327CE2060E6910029029E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBB327D02060E6910029029E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBB327D32060E6910029029E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB327D52060E6910029029E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB327D82060E6910029029E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB327DA2060E6910029029E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB327E22060E6C40029029E /* KLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLHomeViewController.swift; sourceTree = "<group>"; };
+		CBB327E72060E6C40029029E /* KLNetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLNetworkEngine.swift; sourceTree = "<group>"; };
+		CBB327EB2060E75C0029029E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBB327EC2060E75C0029029E /* KLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLBaseViewController.swift; sourceTree = "<group>"; };
+		CBB327ED2060E75C0029029E /* KLCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLCommon.swift; sourceTree = "<group>"; };
+		CBB327EE2060E75C0029029E /* KLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLNavigationController.swift; sourceTree = "<group>"; };
+		CBB327EF2060E75C0029029E /* KLTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLTabBarController.swift; sourceTree = "<group>"; };
+		EA24B825A2206FC1EAE2A904 /* Pods_WeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70D5E9C454A5D03139BA118 /* Pods_WeiBo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E99CB26B318C8D07A661BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58973CE62798931C7E9C902E /* Pods-WeiBo.debug.xcconfig */,
+				7611CDE66577849B3F17A549 /* Pods-WeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAADBE8281AF4E02F31A7A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA24B825A2206FC1EAE2A904 /* Pods_WeiBo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBB327C22060E6900029029E = {
 			isa = PBXGroup;
 			children = (
 				CBB327CD2060E6910029029E /* WeiBo */,
 				CBB327CC2060E6910029029E /* Products */,
+				7E99CB26B318C8D07A661BD6 /* Pods */,
+				CAADBE8281AF4E02F31A7A3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,74 @@
 		CBB327CD2060E6910029029E /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				CBB327CE2060E6910029029E /* AppDelegate.swift */,
-				CBB327D02060E6910029029E /* ViewController.swift */,
-				CBB327D22060E6910029029E /* Main.storyboard */,
+				CBB327EA2060E75C0029029E /* Base */,
+				CBB327E02060E6C40029029E /* Home */,
+				CBB327E62060E6C40029029E /* Network */,
+				CBB327E52060E6C40029029E /* Tool */,
 				CBB327D52060E6910029029E /* Assets.xcassets */,
 				CBB327D72060E6910029029E /* LaunchScreen.storyboard */,
 				CBB327DA2060E6910029029E /* Info.plist */,
 			);
 			path = WeiBo;
+			sourceTree = "<group>";
+		};
+		CBB327E02060E6C40029029E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CBB327E12060E6C40029029E /* Controller */,
+				CBB327E32060E6C40029029E /* Model */,
+				CBB327E42060E6C40029029E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CBB327E12060E6C40029029E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBB327E22060E6C40029029E /* KLHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBB327E32060E6C40029029E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBB327E42060E6C40029029E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB327E52060E6C40029029E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CBB327E62060E6C40029029E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CBB327E72060E6C40029029E /* KLNetworkEngine.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CBB327EA2060E75C0029029E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CBB327EB2060E75C0029029E /* AppDelegate.swift */,
+				CBB327EC2060E75C0029029E /* KLBaseViewController.swift */,
+				CBB327ED2060E75C0029029E /* KLCommon.swift */,
+				CBB327EE2060E75C0029029E /* KLNavigationController.swift */,
+				CBB327EF2060E75C0029029E /* KLTabBarController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB327DD2060E6910029029E /* Build configuration list for PBXNativeTarget "WeiBo" */;
 			buildPhases = (
+				7B59E893CF23644ED4B30306 /* [CP] Check Pods Manifest.lock */,
 				CBB327C72060E6900029029E /* Sources */,
 				CBB327C82060E6900029029E /* Frameworks */,
 				CBB327C92060E6900029029E /* Resources */,
+				0C6825477D89F847A868EC7B /* [CP] Embed Pods Frameworks */,
+				27F9AA87C2690752C1127473 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +220,87 @@
 			files = (
 				CBB327D92060E6910029029E /* LaunchScreen.storyboard in Resources */,
 				CBB327D62060E6910029029E /* Assets.xcassets in Resources */,
-				CBB327D42060E6910029029E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6825477D89F847A868EC7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/WoodPeckeriOS/WoodPeckeriOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WoodPeckeriOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27F9AA87C2690752C1127473 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeiBo/Pods-WeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B59E893CF23644ED4B30306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeiBo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBB327C72060E6900029029E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB327D12060E6910029029E /* ViewController.swift in Sources */,
-				CBB327CF2060E6910029029E /* AppDelegate.swift in Sources */,
+				CBB327F02060E75C0029029E /* AppDelegate.swift in Sources */,
+				CBB327E82060E6C40029029E /* KLHomeViewController.swift in Sources */,
+				CBB327F32060E75C0029029E /* KLNavigationController.swift in Sources */,
+				CBB327F12060E75C0029029E /* KLBaseViewController.swift in Sources */,
+				CBB327E92060E6C40029029E /* KLNetworkEngine.swift in Sources */,
+				CBB327F42060E75C0029029E /* KLTabBarController.swift in Sources */,
+				CBB327F22060E75C0029029E /* KLCommon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBB327D22060E6910029029E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBB327D32060E6910029029E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBB327D72060E6910029029E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,12 +421,14 @@
 		};
 		CBB327DE2060E6910029029E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58973CE62798931C7E9C902E /* Pods-WeiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.25344003-qq.WeiBo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.253440030-qq.WeiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,12 +437,14 @@
 		};
 		CBB327DF2060E6910029029E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7611CDE66577849B3F17A549 /* Pods-WeiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.25344003-qq.WeiBo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.253440030-qq.WeiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

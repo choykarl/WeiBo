@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WeiBo
 //
-//  Created by karl on 2018/03/20.
+//  Created by karl on 2018/03/19.
 //  Copyright © 2018年 Karl. All rights reserved.
 //
 
@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let homeVc = KLHomeViewController()
+        let naviVc = KLNavigationController(rootViewController: homeVc)
+        KLTabBarController.shared.viewControllers = [naviVc]
+        window?.rootViewController = KLTabBarController.shared
+        window?.makeKeyAndVisible()
         return true
     }
 
