@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         KLTabBarController.shared.viewControllers = [naviVc]
         window?.rootViewController = KLTabBarController.shared
         window?.makeKeyAndVisible()
+        
+        KLEmotionManager.shared
         return true
     }
 

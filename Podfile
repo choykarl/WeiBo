@@ -7,6 +7,7 @@ target 'WeiBo' do
   pod 'Alamofire'
   pod 'Kingfisher'
   pod 'WoodPeckeriOS', :configurations => ['Debug']
+  pod 'SwiftyJSON'
   # Pods for WeiBo
 
 end
